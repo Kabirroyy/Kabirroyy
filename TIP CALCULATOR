@@ -1,0 +1,21 @@
+#AUTHOR KABIR ROY
+
+#TIP CALCULATOR
+
+print("Welcome to the TIP CALCULATOR systum")
+
+a=int(input("What is the total bill: "))
+
+b=int(input("What is the amount of tip you want to give? 12 or 10 or 15: "))
+
+c=int(input("How many members are there: "))
+
+total_bill=a + b
+
+print(f'The total bill is,{total_bill}.')
+
+per_person_bill=round(total_bill/c,2)
+
+print(f"The bill made per person is {per_person_bill}" )
+
+# Concept of f strings and basic maths is used
