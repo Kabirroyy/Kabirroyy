@@ -1,0 +1,26 @@
+#AUTHOR-Kabir Roy
+
+#BAND NAME GENERATOR
+
+import random
+
+print("Welcome to the *Band Name Generator* systum")
+
+user_name=input("What is your name ? ")
+pet_name=input("What is your pet name ? ")
+fav_colour=input("What is your favourite colour?")
+
+list_1=[user_name,pet_name]
+list_2=[fav_colour]
+
+c=random.choice(list_1)
+
+print("Your band name will be"+" "+ fav_colour + c )
+
+
+# 1 library random is been used
+# The choice() method returns a randomly selected element from the specified sequence.
+
+
+
+
